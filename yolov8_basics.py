@@ -13,6 +13,8 @@ detection_output = model.predict(source="1", conf=0.25, save=True, show=True)
 # Display tensor array
 print(detection_output)
 
+#test
+
 # Display numpy array
 print(detection_output[0].numpy())
 
